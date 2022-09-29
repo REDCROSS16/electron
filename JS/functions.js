@@ -1,3 +1,4 @@
 document.querySelector('.text').addEventListener('click', function() {
-    alert('work!!!');
+    let time = new Date;
+    alert(time.getTime())
 })
